@@ -24,7 +24,7 @@ Funcionalidades:
     - o endereço é uma `string` com o formato: logradouro, número, bairo, cidade, sigla do estado.
 - _Criar nova Conta_: o programa deve armazenar contas em uma lista que será composta por: agência, número da conta e usuário.
     - o número da conta deve ser sequêncial e começando em 1.
-    - o número da agência é fixo: "001".
+    - o número da agência é fixo: "0001".
     - o usuário pode ter mais de uma conta, porém uma conta pertence somente a um usuário.
 
 _Dica do Instrutor_: Para vincular um usuário a uma conta, filtre a lista de usuários buscando o número do CPF informado para cada usuário da lista.
