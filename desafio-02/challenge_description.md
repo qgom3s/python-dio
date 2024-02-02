@@ -44,4 +44,8 @@ Conceitos abordados de Python que são essenciais para a resolução do desafio 
 
 ## Resolução Proposta
 
-A solução desenvolvida pode ser observada no arquivo `bank_v2.py` e aplicação de conceitos como: estrutura de dados e funções.
+A solução desenvolvida pode ser observada no arquivo `bank_v2.py` e aplicação de conceitos como: estrutura de dados, funções e encapsulamento - embora não tenha sido muito abordada até esta etapa do curso.
+
+Para as funcionalidades que realizam operações, foram criados funções apropriadas conforme as condições passadas e toda a parte em que o usuário realiza uma simulação de ações foi colocada dentro da função `operations()`. Portanto, todas as funcionalidades herdadas do desafio 01 estão modularizadas.
+
+Como não existe inteção de usar conceitos de orientação a objetos e muito menos carregar dados de contas e usuários no momento, optei por somente criar as funções que resolvem a atividade proposta e um laço condicional para que seja possível testar tanto as funcionalidades de gerenciamento de usuários e contas, encapsuladas em `user_management()`, como as de operações de um usuário com conta "ativa". Isso irá deixar o código simples, com os recursos abordados até o momento do curso, além de já estar pronto para implementar classes e objetos.
