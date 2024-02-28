@@ -30,3 +30,24 @@ Conceitos abordados de Python que são essenciais para a resolução do desafio 
 
 ## Resolução Proposta
 
+A solução proposta apresenta as seguintes características:
+
+1. **Classes:**
+   - **Person:** Representa um indivíduo com atributos como nome, data de nascimento, CPF e endereço.
+   - **Account:** Representa uma conta bancária com atributos como número da conta, agência, saldo e cliente.
+   - **CheckingAccount:** Herda de `Account` e representa uma conta corrente com atributos adicionais como limite de saque e limite de transação.
+   - **History:** Armazena detalhes das transações, como tipo, valor e data/hora.`.
+   - **Client:** Representa um cliente com atributos como endereço e uma lista de contas.
+
+2. **Métodos:**
+   - **Client:** Contém métodos para realizar transações (`perform_transaction`) e adicionar contas (`add_account`).
+   - **Account:** Contém métodos para depositar (`deposit`) e sacar (`withdraw`) dinheiro.
+   - **CheckingAccount:** Sobrescreve o método `withdraw` para aplicar limites de saque.
+   - **History:** Armazena e recupera o histórico de transações.
+   - **Transactions:** Define métodos abstratos para registrar transações.
+
+3. **Uso:**
+   - Os clientes podem criar contas e realizar transações, como depósitos e saques.
+   - As contas mantêm o histórico de transações e aplicam limites de saque para contas correntes.
+
+No geral, a solução fornece uma abordagem estruturada e orientada a objetos para modelar um sistema bancário básico, permitindo o gerenciamento fácil de clientes, contas e transações.
